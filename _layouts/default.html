@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet"
+                              type="text/css"
+			      href="/css/main.css">
+			      <!--href="https://fonts.googleapis.com/css?family=Open+Sans">-->
+			<style>
+			@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+			</style>
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Vivien Hui</a></li>
+				<li style="float:right"><a href="/#">Resume</a></li>
+		        	<li style="float:right"><a href="/about">About</a></li>
+	        		<li style="float:right"><a href="/projects">Projects</a></li>
+	        		<!--<li><a href="/blog">Blog</a></li>-->
+				<!--just kidding, I don't have enough to write atm. maybe it'll make a comeback soon-->
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:v.hui@alumni.ubc.ca?subject=Hey Vivien!">say hi! </a></li>
+	        		<li><a href="https://github.com/vvnhkh">github</a></li>
+				<li><a href="/siteinfo">about this site</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
